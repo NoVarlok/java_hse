@@ -61,7 +61,7 @@ public class Elevator {
     public void clearOnFloor(){
         currentCapacity -= personDestination[currentFloor];
         if(personDestination[currentFloor] != 0) {
-            System.out.println(personDestination[currentFloor] + " left the elevator " + name + " on the " + currentFloor + " floor, current capacity = " + currentCapacity);
+            System.out.println(personDestination[currentFloor] + " Person(-s) left the elevator " + name + " on the " + currentFloor + " floor, current capacity = " + currentCapacity);
         }
         personDestination[currentFloor] = 0;
     }

@@ -28,7 +28,7 @@ public class Building {
     }
     Building(int height){
         this.height = height;
-        this.controller = new Controller(this, 1000, "Controller", 1);
+        this.controller = new Controller(this, 1000, "Controller", 3);
         this.personManager = new PersonManager(this, 1000, "Manager");
         upward = new LinkedList[height];
         downward = new LinkedList[height];
